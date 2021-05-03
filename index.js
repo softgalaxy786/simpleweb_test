@@ -3,7 +3,7 @@ const express = require('express');
 const app=express();
 
 app.get('/', (req,res) => {
-    res.send('CES App Version 10.70');
+    res.send('CES App Version 10.70 on Desktop');
 });
 
 app.listen(8080, () => {
