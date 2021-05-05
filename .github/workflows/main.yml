@@ -80,10 +80,10 @@ jobs:
         image: cescorpredteam/app:db-redteam
         volumes:
           - postgres_data:/var/lib/postgresql/data/
-        env:
-          - POSTGRES_USER=cesuser
-          - POSTGRES_PASSWORD=/ZyoyCg?,y0n
-          - POSTGRES_DB=liddatabase
+#         env:
+#           - POSTGRES_USER=cesuser
+#           - POSTGRES_PASSWORD=/ZyoyCg?,y0n
+#           - POSTGRES_DB=liddatabase
 #         restart: always
      
 
