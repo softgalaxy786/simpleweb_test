@@ -10,4 +10,5 @@ jobs:
       - run: bats -v
       - run: pwd
       - run: docker --version
+      - run: echo  $default-branch 
       #- run: ping -c 4 8.8.8.8
