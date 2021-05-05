@@ -9,4 +9,4 @@ jobs:
       - run: npm install -g bats
       - run: bats -v
       - run: pwd
-      - run: ping 8.8.8.8
+      - run: ping -c 4 8.8.8.8
