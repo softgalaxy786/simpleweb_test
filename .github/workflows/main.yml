@@ -5,9 +5,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
-      - run: npm install -g bats
-      - run: bats -v
-      - run: pwd
-      - run: docker build .
+#       - uses: actions/setup-node@v1
+#       - run: npm install -g bats
+#       - run: bats -v
+#       - run: pwd
+      - run: docker build . -t softgalaxy/simpleweb_test
       #- run: ping -c 4 8.8.8.8
