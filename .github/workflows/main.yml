@@ -10,4 +10,5 @@ jobs:
 #       - run: bats -v
 #       - run: pwd
       - run: docker build . -t softgalaxy/simpleweb_test
+      - run: docker run -it softgalaxy/simpleweb_test sh
       #- run: ping -c 4 8.8.8.8
